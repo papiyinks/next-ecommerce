@@ -8,7 +8,7 @@ import Navigation from '../Navigation/navigation';
 
 const Show = props => {
   const [product, setProduct] = useState(null);
-  const [user, setUser] = useState('');
+  // const [user, setUser] = useState('');
 
   const router = useRouter();
   const { id } = router.query;
